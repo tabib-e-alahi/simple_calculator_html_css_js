@@ -11,7 +11,7 @@
       <div class="calculator">
         <input type="text" class="display" id="display_val" value="0" disabled />
         <div class="buttons-container">
-          <button onclick="handleClearDisplay()">C</button>
+          <button class="clear" onclick="handleClearDisplay()">C</button>
           <button onclick="handleOperation('/')">/</button>
           <button onclick="handleOperation('*')">*</button>
           <button onclick="handleOperation('-')">-</button>
@@ -25,7 +25,7 @@
           <button onclick="handleSubmitValue(1)">1</button>
           <button onclick="handleSubmitValue(2)">2</button>
           <button onclick="handleSubmitValue(3)">3</button>
-          <button onclick="handleOperation('=')" class="button_plus">=</button>
+          <button onclick="handleOperation('=')" class="button_plus equal">=</button>
           <button onclick="handleSubmitValue(0)" class="button_zero">0</button>
           <button onclick="handleSubmitValue('.')">.</button>
         </div>

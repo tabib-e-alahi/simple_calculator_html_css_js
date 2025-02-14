@@ -1,9 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+
 .calculator{
     width: 300px;
     height: 400px;
     padding: 18px;
     border-radius: 16px;
-    margin: 40px auto;
     background: rgb(173, 177, 182);
     display: flex;
     flex-direction: column;
@@ -45,6 +54,10 @@ button{
     cursor: pointer;
 }
 
+button:active {
+    background: #bbb;
+}
+
 .button_plus{
     grid-row: span 2;
     font-size: 32px;
@@ -52,4 +65,13 @@ button{
 
 .button_zero{
     grid-column: span 2;
+}
+
+.equal {
+    background: #28a745;
+    color: white;
+}
+.clear {
+    background: #dc3545;
+    color: white;
 }
