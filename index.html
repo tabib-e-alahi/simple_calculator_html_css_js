@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <div class="calculator">
+        <input type="text" class="display" id="display_val" value="0" disabled />
+        <div class="buttons-container">
+          <button onclick="handleClearDisplay()">C</button>
+          <button onclick="handleOperation('/')">/</button>
+          <button onclick="handleOperation('*')">*</button>
+          <button onclick="handleOperation('-')">-</button>
+          <button onclick="handleSubmitValue(7)">7</button>
+          <button onclick="handleSubmitValue(8)">8</button>
+          <button onclick="handleSubmitValue(9)">9</button>
+          <button onclick="handleOperation('+')" class="button_plus">+</button>
+          <button onclick="handleSubmitValue(4)">4</button>
+          <button onclick="handleSubmitValue(5)">5</button>
+          <button onclick="handleSubmitValue(6)">6</button>
+          <button onclick="handleSubmitValue(1)">1</button>
+          <button onclick="handleSubmitValue(2)">2</button>
+          <button onclick="handleSubmitValue(3)">3</button>
+          <button onclick="handleOperation('=')" class="button_plus">=</button>
+          <button onclick="handleSubmitValue(0)" class="button_zero">0</button>
+          <button onclick="handleSubmitValue('.')">.</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
