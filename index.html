@@ -9,13 +9,29 @@
   <body>
     <div>
       <div class="calculator">
-        <input type="text" class="display" id="display_val" value="0" disabled />
+        <input
+          type="text"
+          class="display"
+          id="display_val"
+          value="0"
+          disabled
+        />
         <div class="buttons-container">
-          <button style="background-color: #757272;" class="clear" onclick="handleClearDisplay()">AC</button>
-          <button style="background-color: #757272;" onclick="handleOperation()">+/-</button>
-          <button style="background-color: #757272;" onclick="handleOperation()">%</button>
+          <button
+            style="background-color: #757272"
+            class="clear"
+            onclick="handleClearDisplay()"
+          >
+            AC
+          </button>
+          <button style="background-color: #757272" onclick="handleOperation()">
+            +/-
+          </button>
+          <button style="background-color: #757272" onclick="handleOperation()">
+            %
+          </button>
           <button class="btn_yellow" onclick="handleOperation('/')">/</button>
-          
+
           <button onclick="handleSubmitValue(7)">7</button>
           <button onclick="handleSubmitValue(8)">8</button>
           <button onclick="handleSubmitValue(9)">9</button>
@@ -30,11 +46,17 @@
           <button onclick="handleSubmitValue(2)">2</button>
           <button onclick="handleSubmitValue(3)">3</button>
           <button class="btn_yellow" onclick="handleOperation('+')">+</button>
-        
+
           <button onclick="handleSubmitValue('00')">00</button>
           <button onclick="handleSubmitValue(0)">0</button>
           <button onclick="handleSubmitValue('.')">.</button>
-          <button class="btn_yellow" onclick="handleOperation('=')" class="button_plus equal">=</button>
+          <button
+            class="btn_yellow"
+            onclick="handleOperation('=')"
+            class="button_plus equal"
+          >
+            =
+          </button>
         </div>
       </div>
     </div>
