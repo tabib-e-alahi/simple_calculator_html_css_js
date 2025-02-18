@@ -12,7 +12,7 @@ body {
     width: 300px;
     height: 400px;
     padding: 18px;
-    border-radius: 16px;
+    border-radius: 26px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,7 +33,7 @@ body {
     font-size: 38px;
     font-weight: 600;
     text-align: right;
-    color: balck;
+    color: black;
 }
 .buttons-container{
     display: grid;
@@ -44,8 +44,10 @@ body {
 }
 
 button{
+    width: 60px;
+    height: 60px;
     padding: 4px;
-    border-radius: 8px;
+    border-radius: 30px;
     color: black;
     font-weight: 700;
     font-size: 24px;
